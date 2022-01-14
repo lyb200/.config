@@ -1,0 +1,852 @@
+ce71d9373624bbdaf0fe8a86cddae2e3|untitled:4|75|10|v|markdown
+	Neovim::Ext
+163b0ea0e7947b711fe5b1c8e07065bc|untitled:2|3|1|V|
+		 <head><title>Practical Vim</title></head>
+ab2d8d3e3056bdfb9be1e2144347a81e|untitled:2|2|1|^v|
+	2 
+	3 
+	4 
+	5 
+	6 
+8d05346598cd730d88308156cac41e6d|untitled:2|2|6|v|
+	tally
+9f0cd44e0bc9897524c250a5f7993102|untitled:4|3|1|V|
+			</a>
+d75fb89e60c7de985647d85f5972e487|untitled:4|2|4|v|
+	/episodes/tabs-and-spaces/
+b489a474fe5250d787962d69ae81ce6a|untitled:4|2|77|v|
+	/episodes/show-invisibles/
+765adcf3b0dddc8038ffec2779085738|untitled:4|1|1|V|
+	<ol>
+		<li>
+			<a href="/episodes/show-invisibles/">
+				Show invisibles
+			</a>
+		<li>
+		<li>
+			<a href="/episodes/tabs-and-spaces/">
+				Tabs and Spaces
+			</a>
+		</li>
+	</ol>
+43a881c350e15781688ae215e89ff51f|untitled:4|1|1|V|
+		<li>
+cabd3b69d1eb8e67663eabff33efc53e|file:///home/lyb/.config/nvim/init.vim|195|7|v|vim
+	tpope/vim-unimpaired
+fe87342e2bab94d66bcb153c63bc10e7|file:///home/lyb/python_study/zip.map.py|2|1|V|python
+	print(ret)
+4c07206e98046faf28e2b478f5715a9a|file:///home/lyb/python_study/zip.map.py|1|23|V|python
+	ret = zip(('a', 'b'), ('c', 'd'))
+	res = map(lambda tup:{k:v}, ret)
+a6ee81cbf376b6c4a228ffd7c8a8c9ba|file:///home/lyb/python_study/zip.map.py|3|1|V|python
+	print(dict1)
+59b17c58d87a5141f263e253e07b2d74|file:///home/lyb/python_study/zip.map.py|2|1|v|python
+	dict1
+5cfb4f13c4192a2e1a2c96aeba37360d|file:///home/lyb/python_study/zip.map.py|3|12|v|python
+	map_dict
+c2a9a40cf654f3617d7b22dae907e680|file:///home/lyb/python_study/zip.map.py|3|12|v|python
+	,map_dict,
+a6dc40837e806bb79ef2822b44906f31|file:///home/lyb/python_study/zip.map.py|3|12|v|python
+	uuuuuuuuuu
+911115fea331b4a69698ed7263a2ef98|file:///home/lyb/.config/nvim/init.vim|36|1|V|vim
+	let g:deoplete#enable_at_startup = 1
+5f277b2d08194343b65e7a06bc019ed6|file:///home/lyb/python_study/multipliers.py|1|1|V|python
+	def  m
+7553b177d7c2894a470ad5a2be43ea0f|file:///home/lyb/.config/nvim/init.vim|29|1|V|vim
+	if has('nvim')
+	  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+	else
+	  Plug 'Shougo/deoplete.nvim'
+	  Plug 'roxma/nvim-yarp'
+	  Plug 'roxma/vim-hug-neovim-rpc'
+	endif
+	
+c5101843939c55758145ec1c261a173b|file:///home/lyb/python_study/multipliers.py|2|1|V|python
+	    return [lambda x: i * x for i in range(4)]
+17bcc0b887e01ef068ef8472d4ffba20|file:///home/lyb/python_study/multipliers.py|2|12|v|python
+	lambda x: i * x for i in range(4)
+c7d91dcbf0f3fcb2478ae280606f5583|file:///home/lyb/python_study/multipliers.py|2|1|V|python
+	    return (lambda x: i * x for i in range(4))
+7a012c9044ad6375f74efd3aa26c70aa|file:///home/lyb/python_study/re_test.py|7|1|V|python
+	ret = re.findall(r'\d+(?!\.\d+)|\d+', '1-2*(60+(-40.35/5)-(-4*3))')
+39de2bfc19625b0c04dbaa10cf6934b4|file:///home/lyb/python_study/re_test.py|8|20|v|python
+	\d+(?!\.\d+)
+6a3cf1b48dde5609f3576668019a58a2|file:///home/lyb/python_study/re_test.py|8|1|V|python
+	ret = re.findall(r'\d+|\d+(?!\.\d+)', '1-2*(60+(-40.35/5)-(-4*3))')
+92fbec2a3f024df6de0e954611679d0e|file:///home/lyb/python_study/re_test.py|7|1|V|python
+	ret = re.findall(r'-?\d+\.\d+|(-?\d+)', '1-2*(60+(-40.35/5)-(-4*3))')
+901b76084847f0422e816ef3674300e2|file:///home/lyb/python_study/re_test.py|8|36|v|python
+	1-2*(60+(-40.35/5)-(-4*3))
+f59c1771aafe66eae6ff87aeae3926bd|file:///home/lyb/python_study/re_test.py|8|1|V|python
+	ret = re.findall('\d+(?!\.\d+)|\d+', '30+40.35')
+855a3b1b5f04a16bb093201a1e8c4910|file:///home/lyb/python_study/abstract_method.py|24|1|v|python
+	wechat
+5da8b0e2d27c7adf7c3151c34aa653fc|file:///home/lyb/python_study/abstract_method.py|25|1|v|python
+	apple_pay
+74313a1bc24c6baa87a17cef65aa2898|file:///home/lyb/python_study/abstract_method.py|25|1|v|python
+	apple_pay.p
+2c13f1cc2480d2e035cf848b28e6ff1f|file:///home/lyb/python_study/abstract_method.py|25|1|v|python
+	apple_pay =
+0563f29b76116896efdffbb8b4cdaa4b|file:///home/lyb/python_study/abstract_method.py|21|9|v|python
+	fuqian
+8f8106b5d26bcff942f87df7216ff7f5|file:///home/lyb/python_study/setter.py|14|1|V|python
+	print(p1.name)
+da48ea47f9d6b426da58a8a1bc00a4e2|file:///home/lyb/python_study/setter.py|9|5|V|python
+	    @name.getter
+6dd5a5752b4bcdb4cc55e877743031e4|file:///home/lyb/.bashrc|94|13|V|sh
+	alias ra='ranger'
+	alias t='tmux'
+5f611233060e6d01f6697a0ae9f55d4a|file:///home/lyb/.bashrc|121|25|v|sh
+	nvim
+6667bfea71da53070df06b0a1c5dc9d9|file:///home/lyb/.config/nvim/init.vim|224|1|V|vim
+		let g:python3_host_prog = 'C:\Python38\python.exe'
+d7815abf99245959f0927f188a018be6|file:///home/lyb/.config/nvim/init.vim|217|1|V|vim
+	" let g:python_host_prog  = 'C:\Python27\python.exe'
+c98494d4fdea17932563d6f4fc05c92d|file:///home/lyb/python_study/exp_calc.py|7|1|v|python
+	substr_with_paren
+ea559ce534b13756173f17f65e49f56e|file:///home/lyb/python_study/exp_calc.py|8|7|v|python
+	substr_with_parentheses
+b1a416b45d25fad0f240f5e25ff4bccf|file:///home/lyb/python_study/exp_calc.py|7|1|V|python
+	substr_with_paren = re.search(r'\(\d+(?:\.\d*)?[*/]-?\d+(?:\.\d*)?\)', exp)
+27ddfdcb787da94962aba7bec5d227f4|file:///home/lyb/python_study/exp_calc.py|7|35|v|python
+	\d+(?:\.\d*)
+f56d28090a5d78e346982d424ea04236|file:///home/lyb/python_study/exp_calc.py|7|8|v|python
+	with_paren
+90d165c395dbac0a9301a07601aa492a|file:///home/lyb/python_study/exp_calc.py|7|1|v|python
+	substr_match
+56b3a4020dc6c82a2f58c9f97065f1a9|file:///home/lyb/python_study/exp_calc.py|12|1|V|python
+	print(substr_with_paren)
+1a937319487b15a7e47774e15df1fe07|file:///home/lyb/python_study/exp_calc.py|5|1|V|python
+	print(exp)
+1d1b9d445f31b10f28d7770e9335987c|file:///home/lyb/python_study/exp_calc.py|16|27|v|python
+	re.search(r'\(\d+(?:\.\d*)?[*/]-?\d+(?:\.\d*)?\)', exp)
+f1fa28cdb12c5fbb4bacb50b0371a567|file:///home/lyb/python_study/exp_calc.py|9|5|v|python
+	matchs.group()
+	
+fd5b20d2d2055e3a7c79c342f0e77356|file:///home/lyb/python_study/exp_calc.py|9|5|V|python
+	    print( matchs.group())
+476f7d18766bfafb5e0fc8e5baff672f|file:///home/lyb/python_study/exp_calc.py|10|5|V|python
+	           pass
+06a943c59f33a34bb5924aaf72cd2995|file:///home/lyb/python_study/exp_calc.py|9|17|v|python
+	search
+eb68b6f6c7d23a53408a8e2afb62948a|file:///home/lyb/python_study/exp_calc.py|8|5|V|python
+	    print(subexp)
+fba50004a1c88008206901b1a751e128|file:///home/lyb/python_study/exp_calc.py|8|47|v|python
+	[*/]
+0bfd1b142ff25777f67a8935d659bec2|file:///home/lyb/python_study/exp_calc.py|8|55|v|python
+	-?\d+(?:\.\d*)?
+776e61f6047a40fc52b3da2899d11a02|file:///home/lyb/python_study/exp_calc.py|15|15|v|python
+	matchs
+c16bf2542cc34567d355784564d365d7|file:///home/lyb/python_study/exp_calc.py|16|9|V|python
+	        pass
+152a69db993fa5990d3ccf8174205a80|file:///home/lyb/python_study/exp_calc.py|8|1|V|python
+	    matchs = re.findall(r'([-+]?\d+(?:\.\d*)?)([*/])(-?\d+(?:\.\d*)?)', subexp)
+efdba9d12f3433066bf3713391969d07|file:///home/lyb/python_study/exp_calc.py|16|5|V|python
+	    else:
+7fa7e300e390b2424162c65392ccf61b|file:///home/lyb/python_study/exp_calc.py|9|1|V|python
+	    if matchs:
+	        matchs = matchs[0]
+	        if matchs[1] == '*':
+	            res = float(matchs[0]) * float(matchs[2])
+	        else:
+	            res = float(matchs[0]) / float(matchs[2])
+	        print(res)
+	        return str(res)
+25d2efa0542d3411d0f31b332fd15c39|file:///home/lyb/python_study/exp_calc.py|16|9|V|python
+	        print(res)
+00a65990493998f3c54a96f13a9f26cf|file:///home/lyb/python_study/exp_calc.py|32|5|V|python
+	    # print(substr_without_paren.strip('()'))
+bf56c0f16609e20ba717c61c94073f8f|file:///home/lyb/python_study/exp_calc.py|32|5|V|python
+	    # substr_with_paren = re.search(r'\(\d+(?:\.\d*)?[*/]-?\d+(?:\.\d*)?\)', exp)
+8df35a9f689d25a90b2d8c8377989bd6|file:///home/lyb/.bashrc|120|1|V|sh
+	export PATH="~/.pyenv/bin:$PATH"
+d50acf4f5c318c5120dce0834074e899|file:///home/lyb/python_study/exp_calc.py|32|1|V|python
+	    exp = exp.replace('+-|-+', '-')
+e7cd316c7a193cb9b0af217bb721d8ad|file:///home/lyb/python_study/exp_calc.py|44|1|V|python
+	    print(exp)
+fd6f2ad5434f805f1481e4034360941a|file:///home/lyb/python_study/exp_calc.py|42|5|V|python
+	    print(result)
+6868268c460f511ac8a0dfed39613590|file:///home/lyb/python_study/exp_calc.py|33|1|V|python
+	    pat = re.compile('+-|-+')
+	    exp = re.sub(pat, exp, '-')
+	    exp = exp.replace('+-|-+', '-')
+e0322d78972b743ee5e700c81fc175e6|file:///home/lyb/python_study/exp_calc.py|33|1|V|python
+	    pat = re.compile('+-|-+')
+	    exp = re.sub(pat, exp, '-')
+62cd388b0c69ec6e5a7aabcc0be763de|file:///home/lyb/python_study/exp_calc.py|38|23|v|python
+	'++|--', '+'
+92a8238c1708e08ff632a19a508725ef|file:///home/lyb/python_study/exp_calc.py|35|22|v|python
+	'+-|-+'
+90479e544435b292461d606ea05451d3|file:///home/lyb/python_study/exp_calc.py|37|5|V|python
+	    exp = exp.replace('++|--', '+')
+8955f53d0b495a6be7a966bc8acf51ad|file:///home/lyb/python_study/exp_calc.py|33|5|V|python
+	    pat = re.compile('+-|-+')
+0ee08510dbdfe27d73ff85307b997e92|file:///home/lyb/python_study/exp_calc.py|34|5|V|python
+	    pat = re.compile('++|--')
+0fee4dad317a0d963928d8c04f7afccd|file:///home/lyb/python_study/exp_calc.py|33|1|V|python
+	    exp = re.sub('+-|-+', '-', exp)
+21544dff0bfbacef7ca43264b932f05f|file:///home/lyb/python_study/exp_calc.py|35|5|V|python
+	    exp = pat.sub(exp, '+')
+522ff9f76e5a91eefd977ffe9a7c5201|file:///home/lyb/python_study/exp_calc.py|44|5|V|python
+	        print(exp)
+6b2eb2af096fe2f8ad99beee0df2b9b1|file:///home/lyb/python_study/repr_str.py|14|1|V|python
+	print(teacher.__str__())
+e250e63853c0e79de28c58bd0719fa63|file:///home/lyb/python_study/repr_str.py|15|15|v|python
+	__str__
+83786398ef3e73ee872c647acca4ae73|file:///home/lyb/python_study/repr_str.py|14|1|v|python
+	print(teacher)
+8d788385431273d11e8b43bb78f3aa41|file:///home/lyb/python_study/repr_str.py|14|7|v|python
+	teacher
+1f90d4487a457c5d1fa58b69f581e57e|file:///home/lyb/python_study/repr_str.py|10|9|v|python
+	self.__dict__
+	
+95e58fbb76bdd94e3a5e0237fcc560e4|file:///home/lyb/python_study/repr_str.py|9|5|V|python
+	    def __repr__(self):
+bb8967459ce9ae6a455eb36b7bf66002|file:///home/lyb/python_study/repr_str.py|9|5|V|python
+	    def __repr__(self):
+	        return str(self.__dict__)
+44cdfeb3b318ae56f6cff0102aa6ff98|file:///home/lyb/python_study/repr_str.py|6|5|^v|python
+	def
+	   
+	   
+	def
+b8eb76dc6144ac6e4a055223c6660da6|file:///home/lyb/python_study/repr_str.py|10|16|v|python
+	self.__dict__
+590f53e8699817c6fa498cc11a4cbe63|file:///home/lyb/python_study/repr_str.py|10|16|v|python
+	self
+26ce5849fc0b53104acdcc61689341f6|untitled:5|42|1|V|markdown
+	      -          cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+cf1666297609d5d7ff8827336fb91083|untitled:5|42|18|v|markdown
+	cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+	
+01a0b14380cc55cd4b9c4d2813a4e808|untitled:2|42|18|v|markdown
+	cpanm --local-lib=~/perl5 local::lib && eval $(perl -I ~/perl5/lib/perl5/ -Mlocal::lib)
+2fc67f041edf8d7d8a89e5342ba434a4|untitled:3|33|14|v|markdown
+	run me as a root or with --sudo option 
+d0e77891c0dde575b848574db856cd10|untitled:5|34|14|v|markdown
+	Configure local::lib in your existing shell to set PERL_MM_OPT etc
+94aadddaeb3d01e4ea629a56df125c63|file:///home/lyb/python_study/instance.py|11|1|V|python
+	person1 = Cls('elon')
+9e887375eaba77dc7568e4048268520e|file:///home/lyb/python_study/instance.py|12|16|v|python
+	elon
+73e399023d96d96dc3f8c8506e0550aa|file:///home/lyb/python_study/instance.py|13|1|V|python
+	print(person1.name)
+73d5dded6a22e8a6439c0ef95f3db987|file:///home/lyb/python_study/instance.py|16|1|V|python
+	print(person2.name)
+7bc94a6849a42e43da60bc22e374a75c|file:///home/lyb/python_study/instance.py|18|14|v|python
+	.name
+b068931cc450442b63f5b3d276ea4297|file:///home/lyb/python_study/instance.py|17|14|v|python
+	name
+cfede04872fab9c9c0bb9b4fb4a1e474|file:///home/lyb/python_study/instance.py|10|9|v|python
+	weturn
+8366843bb456d137cf89f4ab9f180daf|file:///home/lyb/python_study/instance.py|7|21|v|python
+	 *args, **kwargs
+4ce995b74035bb97d4e543c804cfeb49|file:///home/lyb/python_study/card.py|5|1|V|python
+	print(card1)
+c42bc12c1a0e820231e7fa5e051fd180|file:///home/lyb/python_study/card.py|9|49|v|python
+	'JQKA'
+4e28dd9566d8e800079497c39ec95b51|file:///home/lyb/python_study/card.py|13|9|v|python
+	-> None:
+c3945458f82d5e491e859cce95563f9e|file:///home/lyb/python_study/card.py|15|5|V|python
+	    super().__init__()
+1400e8a469cb8ae4861dd6280f6b6e69|file:///home/lyb/python_study/card.py|11|5|V|python
+	    print(ranks)
+87b731afb7a12a9872120e5e5f95e1fe|file:///home/lyb/python_study/card.py|19|15|v|python
+	ranks
+cd0725e17628fcf30c8b3a3de1864070|file:///home/lyb/python_study/card.py|19|9|V|python
+	        print(self.__cards)
+53c2e888f47ed2a60bbf67696a90077f|file:///home/lyb/.bashrc|90|1|V|sh
+	# some more ls aliases
+	alias ll='ls -alF'
+	alias la='ls -A'
+	alias l='ls -CF'
+	alias ra='ranger'
+	alias t='tmux'
+a7351993e6f63342ba9fc4d49a5b88bd|file:///home/lyb/python_study/os_path.py|4|1|V|python
+	print(sys_path)
+0eb9b3af2e4a00837a1b1a854c9ea18c|file:///home/lyb/python_study/os_path.py|7|1|v|python
+	modules
+28d788c879a06a2bc8978404b494dd41|file:///home/lyb/python_study/os_path.py|8|4|v|python
+	ules[__name__]
+9b9516b4eb9fb8772e0afc7d4a1a5cdd|file:///home/lyb/python_study/os_path.py|8|1|v|python
+	modules[__name__]
+71ba53ec6b064bb4686539bae695d6d0|file:///home/lyb/python_study/os_path.py|7|7|v|python
+	\033[1;31mm
+4f976478c2628c090c0c49ddfe93f655|file:///home/lyb/python_study/os_path.py|7|7|v|python
+	\033[1;31m
+31f2ae008c3107042ffdbeca38bb415d|file:///home/lyb/python_study/os_path.py|7|1|V|python
+	print('\033[1;31m')
+93473a7344419b15c4219cc2b6c64c6f|file:///home/lyb/python_study/school/core/main.py|9|16|v|python
+	import
+028942a576df3308424d3a2b5d01ae1c|file:///home/lyb/python_study/school/core/main.py|9|1|V|python
+	    username = input('input your name: ')
+14c4b06b824ec593239362517f538b29|file:///home/lyb/python_study/school/core/main.py|10|5|v|python
+	username
+1a1dc91c907325c69271ddf0c944bc72|file:///home/lyb/python_study/school/bin/start.py|7|5|v|python
+	pass
+ea90f4e61a8c84b91e50dff617c006c5|file:///home/lyb/.config/ranger/rc.conf|44|1|V|conf
+	# Use non-default path for file preview script?
+	# ranger ships with scope.sh, a script that calls external programs (see
+	# README.md for dependencies) to preview images, archives, etc.
+	#set preview_script ~/.config/ranger/scope.sh
+68934a3e9455fa72420237eb05902327|file:///home/lyb/.config/ranger/rc.conf|60|15|v|conf
+	false
+36a546dcfebee8aa8a2b3f2abdbc4821|file:///home/lyb/.config/ranger/rc.conf|120|1|V|conf
+	# Increase it in case of experiencing display corruption.
+ce0a7d56848cf7a2dd4e397726dce9e0|file:///home/lyb/.config/ranger/rc.conf|225|1|V|conf
+	# You can display the "real" cumulative size of directories by using the
+b48be83f2c5729a8e505796ab6fb0f8f|file:///home/lyb/.config/ranger/rc.conf|226|1|V|conf
+	# command :get_cumulative_size or typing "dc".  The size is expensive to
+	# calculate and will not be updated automatically.  You can choose
+	# to update it automatically though by turning on this option:
+9b6cb6d43e33d937dc70bad4c804aeef|file:///home/lyb/.config/ranger/rc.conf|401|1|V|conf
+	# For the nostalgics: Midnight Commander bindings
+d08feb54c97ce7672d66e346c0436de6|file:///home/lyb/.config/ranger/rc.conf|8|12|v|conf
+	RANGER_LOAD_DEFAULT_RC
+67cb2c91a5dea9a16fee42f526424e76|file:///home/lyb/.bashrc|124|1|V|sh
+	export RANGER_LOAD_DEFAULT_RC=false
+6a3d35f8cad34a4136df10f1f8f2b7ca|file:///home/lyb/.config/ranger/rc.conf|408|1|V|conf
+	map <F7> console mkdir%space
+e5f65d31f99d88e7a741889238058d7c|file:///home/lyb/.config/ranger/rc.conf|414|1|V|conf
+	map mk console mkdir%space
+aed3a966ec3881af2f0a622b582cd701|file:///home/lyb/.config/ranger/rc.conf|415|16|v|conf
+	mkdir%space
+fb90df8793c277378e8cc7b09c695c0e|file:///home/lyb/.config/ranger/rc.conf|117|1|V|conf
+	set preview_images_method w3m
+93c777cc60fc9fe240fb167d2ebc297d|file:///home/lyb/.config/ranger/rc.conf|187|1|V|conf
+	set update_title false
+dd1aea1136d1549bf5179a97de8ca25a|file:///home/lyb/.config/ranger/rc.conf|247|1|V|conf
+	set xterm_alt_key true
+b326b5062b2f0e69046810717534cb09|file:///home/lyb/.config/ranger/rc.conf|247|19|v|conf
+	true
+150d1a93f071403aeabe0db952baf1fc|file:///home/lyb/.config/ranger/rc.conf|254|1|V|conf
+	set cd_tab_case sensitive
+d1c89dbbd2e4ef759c37d3e0b94e7327|file:///home/lyb/.config/ranger/rc.conf|419|15|v|conf
+	mkdir
+9db51c4a617f63f9a05df5d874b2cd84|file:///home/lyb/.config/ranger/rc.conf|431|1|V|conf
+	map <CR>       move right=1
+a1ff140b5511714b45fe75a84c828661|file:///home/lyb/.config/ranger/rc.conf|387|16|v|conf
+	move right=1
+a0c96e7baf694a6b16f6c6991e60dc56|file:///home/lyb/.config/ranger/rc.conf|471|1|V|conf
+	map gm cd /media
+71bb0a1f7020877cb70a5db9cd612bd0|file:///home/lyb/.config/ranger/rc.conf|481|13|v|conf
+	edia
+d510261af31beaefbaaa5102efcb61d2|file:///home/lyb/.config/ranger/rc.conf|481|1|V|conf
+	map gM cd /mnt
+f721917260c0ec229bfb226e1088158f|file:///home/lyb/.config/ranger/rc.conf|465|1|V|conf
+	map gff cd ~/.config
+e6d410655a5682acb50c39719703f014|file:///home/lyb/.config/ranger/rc.conf|466|1|V|conf
+	map gfn cd ~/.config/nvim
+7decca70aa9d75e85019e5fe68840fef|file:///home/lyb/.config/ranger/rc.conf|467|1|V|conf
+	map gfr cd ~/.config/ranger
+ad92694923612da0600d7be498cc2e08|file:///home/lyb/.config/ranger/rc.conf|468|22|v|conf
+	ranger
+7b0090a8bd6d86b0b74e50442927bac3|file:///home/lyb/.config/ranger/rc.conf|468|1|V|conf
+	map gfz cd ~/.config/zsh
+5177a1ef045285ecc2dd82f6a725c06e|file:///home/lyb/.config/ranger/rc.conf|477|1|V|conf
+	map guu cd /usr
+97f348731e443ccfe150a6047f964f29|file:///home/lyb/.config/ranger/rc.conf|479|1|V|conf
+	map gub cd /usr/bin
+aeef6f69c2d070a8c3ac2980962d89aa|file:///home/lyb/.config/ranger/rc.conf|480|1|V|conf
+	map gul cd /usr/local
+f5ddaf0ca7929578b408c909429f68f2|file:///home/lyb/.config/ranger/rc.conf|481|17|v|conf
+	local
+45f045340c543f90a6b04ed7d006ea14|file:///home/lyb/.config/ranger/rc.conf|481|1|V|conf
+	map gus cd /usr/share
+9eaeadc63d06c3c429290c3ae4bb46f1|file:///home/lyb/.config/ranger/rc.conf|482|1|V|conf
+	map guf cd /usr/share/fonts
+980d14c0c85495b48b9a9134658e6121|file:///home/lyb/.config/ranger/rc.conf|483|23|v|conf
+	fonts
+eaa2b06ef7ed0c21d2bdda1194f2cbe4|file:///home/lyb/.config/ranger/rc.conf|507|1|V|conf
+	map =  chmod
+8c7127ee01134e7750d739e756b9506e|file:///home/lyb/.config/ranger/rc.conf|575|1|V|conf
+	# Tabs
+	map <C-n>     tab_new
+	map <C-w>     tab_close
+	map <TAB>     tab_move 1
+	map <S-TAB>   tab_move -1
+	map <A-Right> tab_move 1
+	map <A-Left>  tab_move -1
+	map gt        tab_move 1
+	map gT        tab_move -1
+	map gn        tab_new
+	map gc        tab_close
+	map uq        tab_restore
+	map <a-1>     tab_open 1
+	map <a-2>     tab_open 2
+	map <a-3>     tab_open 3
+	map <a-4>     tab_open 4
+	map <a-5>     tab_open 5
+	map <a-6>     tab_open 6
+	map <a-7>     tab_open 7
+	map <a-8>     tab_open 8
+	map <a-9>     tab_open 9
+	map <a-r>     tab_shift 1
+	map <a-l>     tab_shift -1
+	
+3de573b997b5145020f9607f638a8f65|file:///home/lyb/.config/ranger/rc.conf|421|1|V|conf
+	map tk        tab_move -1
+b97b4729e9e6a77ebfb2f1b2fcf7256a|file:///home/lyb/.config/ranger/rc.conf|424|1|V|conf
+	map tsk       tab_shift -1
+e0409d479ba7950eeb73e77119d75ed7|file:///home/lyb/.config/ranger/rc.conf|389|11|V|conf
+	# Jumping around
+	map to console cd%space
+88b38070b4890201d66e197179159589|file:///home/lyb/.config/ranger/rc.conf|499|1|V|conf
+	# Jumping around
+b3b4b61654e6b4c9a12fe54bfd62914b|file:///home/lyb/.config/ranger/rc.conf|391|1|V|conf
+	map ff console scout -ftsea%space
+0fea1189f998de7fef1b7f634ef5afb0|file:///home/lyb/.config/ranger/scope.sh|162|9|^v|sh
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+536ba5473a93cc0e5279f1eedaab8f6e|file:///home/lyb/.config/ranger/scope.sh|204|9|^v|sh
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+4e95a5e15dd2cc6e3f9d57dd8332504c|file:///home/lyb/.config/ranger/scope.sh|130|9|^v|sh
+	#
+	#
+	#
+	#
+535a6fdad68297a7b23b082e87f017cf|file:///home/lyb/.config/ranger/scope.sh|156|9|^v|sh
+	#
+	#
+	#
+	#
+	#
+b3d4806c28b175d9e699755764585b58|file:///home/lyb/.config/ranger/scope.sh|242|5|^v|sh
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	 
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+	#
+6b73b1a2b145e129321fd7d88035fc87|file:///home/lyb/.config/ranger/plugins/ranger_devicons/devicons.py|11|3|v|python
+	https://github.com/ryanoasis/nerd-fonts
+91baed84fad572ccaef9377c056a4177|file:///home/lyb/.tmux/.tmux.conf|2|3|v|tmux
+	https://github.com/gpakosz/.tmux
+4c5d7568c1b9fc622890ca133223b744|file:///home/lyb/.config/nvim/init.vim|158|21|v|vim
+	devicons
+f78111b9587bf62cb9f8198339aaeb0d|file:///home/lyb/.bashrc|120|1|V|sh
+	export PATH="~/.pyenv/bin:$PATH"
+	export PATH="~/boot/.local/bin:$PATH"
+	export EDITOR='/usr/bin/nvim'
+	export PERL_CPANM_OPT="--prompt --reinstall -l ~/perl --mirror http://cpan.cpantesters.org"
+	export RANGER_LOAD_DEFAULT_RC=false
+	eval "$(pyenv init -)"
+	eval "$(pyenv virtualenv-init -)"
+5d8f811ecde76563d10fef8bf1f65397|file:///home/lyb/.zshrc|51|1|V|zsh
+	eval "$(pyenv init -)"
+0fcbcc0e999624c7fe368cfe1a8553e3|file:///home/lyb/.zshrc|51|1|V|zsh
+	eval "$(pyenv virtualenv-init -)"
+5bd29c41dea73482c5322bdd1ef0d303|file:///home/lyb/.config/nvim/init.vim|397|16|v|vim
+	$HOME/.config/nvim/tmp/undo
+998d9a79b9c9b8c91352ccb2877a689a|file:///home/lyb/python_study/school/core/Manager.py|24|1|V|python
+	        teacher_name = input('input teacher name that you want to create:')
+7d793037a0760186574b0282f2f435e7|file:///home/lyb/python_study/relative_import/x/xx/xx.py|3|17|v|python
+	world
+f387cecf5f43b4b1344cd99d0bbf5174|file:///home/lyb/python_study/relative_import/test.py|3|1|V|python
+	sys.path.append(os.path.dirname(__file__))
+6f978bf7541aebac40a0f8f894390a2e|file:///home/lyb/python_study/relative_import/test.py|4|33|v|python
+	__file__
+faa1a745893e48d6883abc7d694c8a30|file:///home/lyb/python_study/school/bin/start.py|6|1|V|python
+	# from core import main
+e0df5f3dfd2650ae5be9993434e2b2c0|file:///home/lyb/python_study/school/bin/start.py|4|10|v|python
+	insert
+dc021a028d81a4a64ce813cbfc496a53|file:///home/lyb/python_study/school/bin/start.py|6|6|v|python
+	chool
+9516dfb15f51c7ee19a4d46b8c0dbe1d|file:///home/lyb/python_study/school/bin/start.py|4|10|v|python
+	append
+8d6ab84ca2af9fccd4e4048694176ebf|file:///home/lyb/python_study/school/core/main.py|28|43|v|python
+	menu
+e28deebb8269352131aab96126508101|file:///home/lyb/python_study/school/core/Teacher.py|1|1|v|python
+	name = 'evo'
+98ad9e6fc166f46c7fdbe6b4fa785f76|file:///home/lyb/python_study/school/core/my_pickle.py|4|9|V|python
+	        self.name = ''
+097583922f55090bee23ea6ffda68415|file:///home/lyb/python_study/school/core/my_pickle.py|7|9|V|python
+	        self.obj = obj
+2c2e3e5b2b40398b3734886dfe8a1306|file:///home/lyb/python_study/package/package_test.py|1|8|v|python
+	glance.api.policy
+efe90a8e604a7c840e88d03a67f6b7d8|file:///home/lyb/python_study/package/glance/package_test.py|2|8|v|python
+	package
+0445746740b7be63f2624108c9762d93|file:///home/lyb/python_study/package/glance/package_test.py|1|1|V|python
+	import sys
+	import glance.api.policy
+	print(sys.path)
+ee461bc184ffd4e4b97641052a461c07|file:///home/lyb/python_study/package/glance/package_test.py|3|8|v|python
+	glance.api.policy as policy
+1f251b26aba43386d33ef85dc26cff36|file:///home/lyb/python_study/package/glance/__init__.py|1|1|V|python
+	import api
+2c66a060c7107b2f703a2ecf49874234|file:///home/lyb/python_study/package/glance/package_test.py|6|1|V|python
+	from api import policy
+6d61dc39dabf6861804762bdcc6743d5|file:///home/lyb/python_study/package/glance/package_test.py|6|1|V|python
+	policy.get()
+3573c6efaa587ccb25dc26fd0da4b399|file:///home/lyb/python_study/package/glance/package_test.py|3|8|v|python
+	lance
+973789ecd63d6e8bce49644455f7ae84|file:///home/lyb/.zshrc|45|10|v|zsh
+	echo -e \033[?25h
+4f1b1839fa3397ec6a82bfd197065b66|file:///home/lyb/.zshrc|45|18|v|zsh
+	\033[?25h
+56b7546218110d272cb01188753bb4cf|file:///home/lyb/.zshrc|45|1|V|zsh
+	alias c='echo -e "\033[?25h"'
+4bab72b7949cc31d43779e2b9ab06f64|file:///home/lyb/.zshrc|45|1|V|zsh
+	# fix cursor
+	alias c='echo -e "\033[?25h"'
+	alias nc='echo -e "\033[?25l"'
+44eb9e589b179527fbbdcfa229273de3|file:///home/lyb/python_study/mypickle.py|2|1|V|python
+	from io import open_code
+3e02a2b853dba81ce680f4f570a623d2|file:///etc/apt/sources.list|1|1|V|debsources
+	## See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+	## newer versions of the distribution.
+	#deb http://archive.ubuntu.com/ubuntu/ focal main restricted
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal main restricted
+	#
+	### Major bug fix updates produced after the final release of the
+	### distribution.
+	#deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted
+	#
+	### N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+	### team. Also, please note that software in universe WILL NOT receive any
+	### review or updates from the Ubuntu security team.
+	#deb http://archive.ubuntu.com/ubuntu/ focal universe
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal universe
+	#deb http://archive.ubuntu.com/ubuntu/ focal-updates universe
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal-updates universe
+	#
+	### N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+	### team, and may not be under a free licence. Please satisfy yourself as to
+	### your rights to use the software. Also, please note that software in
+	### multiverse WILL NOT receive any review or updates from the Ubuntu
+	### security team.
+	#deb http://archive.ubuntu.com/ubuntu/ focal multiverse
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal multiverse
+	#deb http://archive.ubuntu.com/ubuntu/ focal-updates multiverse
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal-updates multiverse
+	#
+	### N.B. software from this repository may not have been tested as
+	### extensively as that contained in the main release, although it includes
+	### newer versions of some applications which may provide useful features.
+	### Also, please note that software in backports WILL NOT receive any review
+	### or updates from the Ubuntu security team.
+	#deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+	## deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+	#
+	### Uncomment the following two lines to add software from Canonical's
+	### 'partner' repository.
+	### This software is not part of Ubuntu, but is offered by Canonical and the
+	### respective vendors as a service to Ubuntu users.
+	## deb http://archive.canonical.com/ubuntu focal partner
+	## deb-src http://archive.canonical.com/ubuntu focal partner
+	#
+	#deb http://security.ubuntu.com/ubuntu/ focal-security main restricted
+	## deb-src http://security.ubuntu.com/ubuntu/ focal-security main restricted
+	#deb http://security.ubuntu.com/ubuntu/ focal-security universe
+	## deb-src http://security.ubuntu.com/ubuntu/ focal-security universe
+	#deb http://security.ubuntu.com/ubuntu/ focal-security multiverse
+	## deb-src http://security.ubuntu.com/ubuntu/ focal-security multiverse
+	
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+	
+	# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+	deb-src hde://mirrors.aliyun.com/ubunbput/ trusty main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-security main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-updates main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-proposed main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ trusty-backports main restricted universe multiverse
+	
+	# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+	deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+	# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+	# deb-src h# de://ppa.launchpad.nebp/fontt/fontforge/ubuntu focal main
+b26c4ba743e31992bc1e975d3444dc64|file:///home/lyb/sources.list|13|1|V|
+	deb http://mirrors.163.com/ubuntu/ focal main restricted
+	deb-src http://mirrors.163.com/ubuntu/ focal main restricted
+	deb http://mirrors.163.com/ubuntu/ focal-updates main restricted
+	deb-src http://mirrors.163.com/ubuntu/ focal-updates main restricted
+	deb http://mirrors.163.com/ubuntu/ focal universe
+	deb-src http://mirrors.163.com/ubuntu/ focal universe
+	deb http://mirrors.163.com/ubuntu/ focal-updates universe
+	deb-src http://mirrors.163.com/ubuntu/ focal-updates universe
+	deb http://mirrors.163.com/ubuntu/ focal multiverse
+	deb-src http://mirrors.163.com/ubuntu/ focal multiverse
+	deb http://mirrors.163.com/ubuntu/ focal-updates multiverse
+	deb-src http://mirrors.163.com/ubuntu/ focal-updates multiverse
+	deb http://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
+	deb-src http://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
+	deb http://mirrors.163.com/ubuntu/ focal-security main restricted
+	deb-src http://mirrors.163.com/ubuntu/ focal-security main restricted
+	deb http://mirrors.163.com/ubuntu/ focal-security universe
+	deb-src http://mirrors.163.com/ubuntu/ focal-security universe
+	deb http://mirrors.163.com/ubuntu/ focal-security multiverse
+	deb-src http://mirrors.163.com/ubuntu/ focal-security multiverse
+	deb http://extras.ubuntu.com/ubuntu focal main
+	deb-src http://extras.ubuntu.com/ubuntu focal main
+9499bb0e1a20e0aa503c21b52a3af4d0|file:///etc/apt/sources.list|17|1|^v|debsources
+	# 
+	# 
+	# 
+	# 
+983c302976bea15b4b4bb7d3283ba745|file:///home/lyb/.bashrc|96|1|V|sh
+	alias sudo='sudo -E'
+e3031b62540c5867adf8938422396a9f|file:///home/lyb/manjaro_pacman_command.txt|7|19|v|text
+	y for yank
+36fc46d89f26d1baab9be4822a221a0f|file:///home/lyb/manjaro_pacman_command.txt|7|1|V|text
+		sudo pacman -Sy  
+106a6c241b8797f52e1e77317b96a201|file:///home/lyb/manjaro_pacman_command.txt|15|44|v|text
+	home
+d6192721e2991f8cbea2e6a0e2db6fd3|file:///home/lyb/manjaro_pacman_command.txt|4|18|v|text
+	's command has three class:
+21a9256128808601a41533c7a1f4caae|file:///home/lyb/manjaro_pacman_command.txt|5|25|v|text
+	由三类：
+616b98446e2dbab41000d8e9ca0dcac6|file:///home/lyb/manjaro_pacman_command.txt|45|1|V|text
+	事务选项（适用于-S、-R和-U） 
+f57d9c94b87d703349efa1368d05e1c8|file:///home/lyb/manjaro_pacman_command.txt|49|1|V|text
+	Upgrade Options (apply to -S and -U)
+9df9b98eae329a05ea3bde6e7c462300|file:///home/lyb/manjaro_pacman_command.txt|49|1|V|text
+	--asdeps
+ea77dcf468f4d3a4b4a8c0cd5b9f63c3|file:///home/lyb/manjaro_pacman_command.txt|143|3|v|text
+	中定义的服务器
+e68cf4b2c98a6cd220e33b50db20ef95|file:///home/lyb/python_study/closure1.py|12|7|v|python
+	inn())
+0d58cc69d4adc8630af99d2e07e5b5c0|file:///home/lyb/python_study/closure1.py|12|1|V|python
+	print(
+bbe9cee29cc360f668e140df089ae00c|file:///home/lyb/python_study/closure1.py|12|1|V|python
+	inn()
+c8b517b7b348324e33169501035a83f5|file:///home/lyb/python_study/closure1.py|2|1|V|python
+	    var = 33
+824b824fa178b07f21664a27b47000a7|file:///home/lyb/python_study/closure1.py|6|1|V|python
+	        print(var)
+6482a3f94854f5920ef720dbf7944d49|file:///home/lyb/python_study/closure1.py|8|15|v|python
+	var1
+32f81ff8b5eb2edb70a7059a2d27148b|file:///home/lyb/python_study/closure1.py|16|1|V|python
+	print(ret.__code__.co_cellvars)
+ac0e31256b9588b0e7da35486a7548a6|file:///home/lyb/python_study/closure1.py|17|20|v|python
+	co_cellvars
+b23ad310a9362329c9078ca0e583f7c8|file:///home/lyb/python_study/closure1.py|17|1|V|python
+	print(ret.__code__.co_varnames)
+1b67f5e487b72030d92dab91cc4cd8a1|file:///home/lyb/python_study/closure1.py|18|20|v|python
+	co_varnames
+c01995465c88792108e5e09af3e8c4d9|file:///home/lyb/python_study/genarator.mult.py|8|1|V|python
+	g1 = (i for i in g)
+8843f5cb052cb58c90945136c881e56a|file:///home/lyb/python_study/genarator.mult.py|11|1|V|python
+	print(list(g1))
+ee204412f2a56d0f2f7e4ed375c65874|file:///home/lyb/python_study/genarator.mult.py|10|1|V|python
+	print(g)
+48445a78bb3ede3d2fc2bea672fd4fd9|file:///home/lyb/python_study/genarator.mult2.py|17|1|V|python
+	print(range(0, 3))
+889add771f434116aeb20d261a8e7e6c|file:///home/lyb/python_study/genarator.mult2.py|18|1|V|python
+	a = [i for i in a]
+f369ce50547c080cda7288904639f2ef|file:///home/lyb/python_study/genarator.mult2.py|17|4|V|python
+	a = range(5)
+	a = [i for i in a]
+	a = [i ** 2 for i in a]
+	print(a)
+1340a20222e1e7c964acb211ea31a080|file:///home/lyb/python_study/copy_test.py|13|1|V|python
+	print(lst1)
+cd8361d0df881c7f7b09bee557b587a6|file:///home/lyb/python_study/lambda_for.py|2|7|v|python
+	list()
+5b230fcf9afd520b8f69f68e085b4752|file:///home/lyb/python_study/lambda_for.py|11|1|V|python
+	print(next(v))
+c86c9ffdce50e9564dafae79bc5de57b|file:///home/lyb/python_study/sum_lst.py|2|1|V|python
+	lst.remove(3)
+3e0ffa45bd2b61488b9d483a8a93ed31|file:///home/lyb/python_study/sum_lst.py|2|1|V|python
+	print(lst)
+ee946c211e0e1e694cc5e0d10aee38ab|file:///home/lyb/python_study/sum_lst.py|3|1|V|python
+	print(set_list)
+62d74dc1dee6dbbeb3c6e460a976ef17|file:///home/lyb/python_study/sum_lst.py|3|1|V|python
+	dup_list = []
+778477d90d011909cf80801ef6a16b64|file:///home/lyb/python_study/sum_lst.py|6|19|V|python
+	def sum_not_dup(lst):
+	    for i, v in enumerate(lst):
+	        if v in lst[i + 1:]:
+	            dup_list.append(v)
+07e64943ccc1c4f3220d986c9d1d056a|file:///home/lyb/python_study/sum_lst.py|10|8|V|python
+	            pass
+17bc78f5e79a663c3b95b8bfd198b2cb|file:///home/lyb/python_study/sum_lst.py|5|1|V|python
+	sum = 0
+61bfd2267fcd0104ee01dbfa469503c0|file:///home/lyb/python_study/sum_lst.py|2|1|V|python
+	set_list = set(lst)
+b3a527dee6c570c47e6123688e3d8b7e|file:///home/lyb/python_study/sum_lst.py|2|1|V|python
+	print(lst.count(3))
+cef167717a63dbc387dce5536d31ffb5|file:///home/lyb/python_study/sum_lst.py|6|5|V|python
+	    set_list = set(lst)
+2321ff27ca495497a6dceca3001b1d34|file:///home/lyb/python_study/sum_lst.py|6|14|v|python
+	set_list
+5c6b8754d9a8a38cd8d45309d8fa035c|file:///home/lyb/python_study/sum_lst.py|3|16|v|python
+	[i for i in lst if lst.count(i) == 1]
+f7531e2d0ea27233ce00b5f01c5bf335|file:///home/lyb/python_study/sum_lst.py|4|5|v|python
+	print
+3f7917a028783cd39a2331e49b4f768e|file:///home/lyb/python_study/sum_lst.py|4|5|v|python
+	sum_lisi
+941eb182ca28a55afe93f5d5d58a111b|file:///home/lyb/python_study/sum_lst.py|8|1|V|python
+	
+	# def sum_single(lst):
+	#     sum1 = 0
+	#     for i in lst:
+	#         if lst.count(i) == 1:
+	#             sum1 += i
+	#     return sum1
+	
+	# print(sum_single(lst))
+e87e3ead86472f70978032151ad6df11|file:///home/lyb/python_study/register.py|9|23|v|python
+	name, pwd
+09fe686696967e8f644dc7bdf4d459b0|file:///home/lyb/python_study/register.py|10|17|V|python
+	                print(fname, fpwd, end='')
+241a389532634472c58471bfd066b3ed|file:///home/lyb/python_study/register.py|9|17|V|python
+	                print(fname == name and fpwd == pwd)
+8aa667a1cd258aea18d8fa9094d8218a|file:///home/lyb/python_study/register.py|9|41|v|python
+	strip
+82d3a7349dc2f99356071d77a2f38a3b|file:///home/lyb/python_study/register.py|9|50|v|python
+	.strip()
+ab0f7f6c4e38643982c795190861dfc6|file:///home/lyb/python_study/register.py|2|1|V|python
+	    with open('register', mode='r') as f:
+	        for i in range(3):
+fa935b7f2f68f9cafcaf509a6b40e5ec|file:///home/lyb/python_study/register.py|14|5|V|python
+	    return False
+ecdfc916e3acf8980dc3fb78f68b8b8f|file:///home/lyb/python_study/register.py|13|17|V|python
+	                return False
+ed46706efc5fc28683ad4b7f30e0cd36|file:///home/lyb/python_study/register.py|12|13|V|python
+	            else:
+a178407e6495e3426b5d54eae101ccbd|file:///home/lyb/python_study/register.py|9|57|v|python
+	.strip():
+7bb0edd98f22430a03b67f853e83c2ca|file:///home/lyb/python_study/decorator.test.py|6|8|V|python
+	        
+3f0489885f49f19a35f0c4f1fe821ff3|file:///home/lyb/python_study/decorator.test.py|11|1|V|python
+	            ret = f(*args, **kwargs)
+	            return ret
+51b9636d1e57447db529fd843dc8bf37|file:///home/lyb/python_study/decorator.test.py|5|1|V|python
+	status_dict = {'username': None, 'status': False}
+d8a8c6d2c808b09bd41f1c8c7c577749|file:///home/lyb/python_study/decorator.test.py|5|1|V|python
+	    name = input('input your name: ').strip()
+13cb3b9b167926b9f60d24d6979061ae|file:///home/lyb/python_study/decorator.test.py|17|1|V|python
+	        if status_dict['status']:
+cf5dff9eac49c51e6508fbe9b90cf5fa|file:///home/lyb/python_study/decorator.test.py|18|13|V|python
+	            ret = f(*args, **kwargs)
+2ea6ece1d8f2b4cea0b5545cc0084659|file:///home/lyb/python_study/decorator.test.py|18|13|V|python
+	            return ret
+ac08e8be6a7d3a6aa86e884ebc0076de|file:///home/lyb/python_study/decorator.test.py|19|13|V|python
+	            login()
+a958c4c45d836bff3d09456cd362959c|file:///home/lyb/python_study/decorator.test.py|19|9|V|python
+	        else:
+63cd2e17f4530f473e06148ae3249452|file:///home/lyb/python_study/decorator.test2.py|3|1|V|python
+	now = time.localtime()
+f517b96a2ba2f5ffb07a694383406e3b|file:///home/lyb/python_study/decorator.test2.py|3|1|V|python
+	print(now)
+676512f930862f7e94e20eb561dcf6a4|file:///home/lyb/python_study/decorator.test2.py|3|9|V|python
+	local_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+	print(local_time)
+8b8c11d61cc3de2296af3cfe659297cc|file:///home/lyb/python_study/list.transmission.py|1|16|v|python
+	'name': 'alex', 'hobby': "smoking"
+123c5efce35da35c60ee9338a6e34e9c|file:///home/lyb/python_study/list.transmission.py|2|1|V|python
+	    { 'name': 'alex', 'hobby': "smoking" },
+5cc224100427d254d62b1fe5fc7883b3|file:///home/lyb/python_study/list.transmission.py|3|33|v|python
+	smoking
+534b44a19bf18d20b71ecc4eb77c572f|file:///home/lyb/python_study/list.transmission.py|6|16|v|python
+	alex
+d037ec6c5dd6327fc7b266c95155bad0|file:///home/lyb/python_study/list.transmission.py|6|1|V|python
+	    { 'name': 'wusir', 'hobby': "singing" },
+cb75333af2830ed7595e28f03843e149|file:///home/lyb/python_study/list.transmission.py|7|34|v|python
+	singing
+2c269018596677e7243e892d0693b06f|file:///home/lyb/python_study/list.transmission.py|35|5|V|python
+	    flag = False
+537a2ebd0653154fdf803259afb4a211|file:///home/lyb/python_study/list.transmission.py|39|1|V|python
+	            flag = True
+0571cbcde40b37d3e36864bbd6558d97|file:///home/lyb/python_study/list.transmission.py|41|13|v|python
+	lag:
+b08a7cbb700695703b6c4d8a2989ee9a|file:///home/lyb/.zshrc|40|1|V|zsh
+	alias ll='ls -alF'
+7e785e525ca0e2334bd6543967df62ac|file:///home/lyb/.config/ranger/rc.conf|613|1|V|conf
+	map ct search_next order=tag
+	map cs search_next order=size
+	map ci search_next order=mimetype
+	map cc search_next order=ctime
+	map cm search_next order=mtime
+	map ca search_next order=atime
+ce7aa7cfab9b8842de872211f6578a23|file:///home/lyb/.config/ranger/rc.conf|613|1|V|conf
+	# map ct search_next order=tag
+	# map cs search_next order=size
+f0efbc6447e0da5340f0e69de8616f86|file:///home/lyb/.config/ranger/rc.conf|619|5|^v|conf
+	c
+	c
+	c
+	c
+	c
+	c
+f209cf6ae55761b9a93fc5a6c14acf3d|file:///home/lyb/.config/.gitignore|1|1|V|gitignore
+	nvim
+	coc
+	configstore
+	htop

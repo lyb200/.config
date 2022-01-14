@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "coc-actions": ">=1.5.0",
+    "coc-diagnostic": ">=0.23.1",
+    "coc-flutter-tools": ">=1.6.4",
+    "coc-gitignore": ">=0.0.4",
+    "coc-html": ">=1.6.0",
+    "coc-json": ">=1.4.1",
+    "coc-lists": ">=1.4.2",
+    "coc-marketplace": ">=1.8.1",
+    "coc-prettier": ">=1.1.25",
+    "coc-pyright": ">=1.1.208",
+    "coc-python": ">=1.2.13",
+    "coc-snippets": ">=2.4.7",
+    "coc-stylelint": ">=1.2.0",
+    "coc-syntax": ">=1.2.4",
+    "coc-tasks": ">=0.3.0",
+    "coc-todolist": ">=1.5.1",
+    "coc-translator": ">=1.7.1",
+    "coc-tslint-plugin": ">=1.2.0",
+    "coc-tsserver": ">=1.9.6",
+    "coc-vetur": ">=1.2.5",
+    "coc-vimlsp": ">=0.12.5",
+    "coc-yank": ">=1.2.0"
+  }
+}
